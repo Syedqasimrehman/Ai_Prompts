@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import UserProfile from "@components/UserProfile";
-import Loading from "../loading";
+import Loading from "../Loading";
 const UserProfilePage = ({ params }) => {
   return (
     <Suspense fallback={<Loading />}>
