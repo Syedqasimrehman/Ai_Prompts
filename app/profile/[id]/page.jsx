@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import UserProfile from "@components/UserProfile";
-import Image from "@node_modules/next/image";
-import Loading from "../Loading";
+import Loading from "../loading";
 const UserProfilePage = ({ params }) => {
   return (
     <Suspense fallback={<Loading />}>
