@@ -1,9 +1,17 @@
 import { Suspense } from "react";
 import UserProfile from "@components/UserProfile";
-import Loading from "../Loading";
+import Image from "@node_modules/next/image";
 const UserProfilePage = ({ params }) => {
   return (
-    <Suspense fallback={<Loading />}>
+    <Suspense fallback={<div className='w-full flex-center'>
+      <Image
+        src='assets/icons/loader.svg'
+        width={50}
+        height={50}
+        alt='loader'
+        className='object-contain'
+      />
+    </div>}>
       <UserProfile params={params} />
     </Suspense>
   );
