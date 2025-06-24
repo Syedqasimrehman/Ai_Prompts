@@ -1,17 +1,22 @@
 import { Suspense } from "react";
 import UserProfile from "@components/UserProfile";
 import Image from "@node_modules/next/image";
+import MyProfile from "@components/MyProfile";
 const UserProfilePage = ({ params }) => {
   return (
-    <Suspense fallback={<div className='w-full flex-center'>
-      <Image
-        src='assets/icons/loader.svg'
-        width={50}
-        height={50}
-        alt='loader'
-        className='object-contain'
-      />
-    </div>}>
+    <Suspense
+      fallback={
+        <div className="w-full flex-center">
+          <Image
+            src="assets/icons/loader.svg"
+            width={50}
+            height={50}
+            alt="loader"
+            className="object-contain"
+          />
+        </div>
+      }
+    >
       <UserProfile params={params} />
     </Suspense>
   );
