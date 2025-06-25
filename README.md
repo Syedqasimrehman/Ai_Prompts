@@ -1,7 +1,5 @@
 <div align="center">
   <br />
-      <img src="https://github.com/adrianhajdin/project_next_14_ai_prompt_sharing/assets/151519281/40a6e6fe-7f97-45bc-8113-bb5732fdcdb7" alt="Project Banner">
-  <br />
 
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000" alt="Next.js" />
@@ -41,7 +39,7 @@
 
 ## <a name="install">Installation </a>
 
-Follow these steps to set up the project locally on your machine.
+Installation Features
 
 **Installation**
 
@@ -64,7 +62,7 @@ GOOGLE_CLIENT_SECRET=
 MONGODB_URI=
 ```
 
-Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up on these corresponding websites from [Google Cloud Console](https://console.cloud.google.com/welcome?rapt=AEjHL4MBaLLneW6OfAHf_zgms1eWZFw1wdy0_KIC4uh1nEqh2m4ojOvrXNlzJ4h7CZTkpiWgcsoHbUvS-FMdCP7WIkaVlPAeU7cnVR6Y0wJHeLMOtU6KAzA&project=promptopia-385410), [Cryptpool](https://www.cryptool.org/en/cto/openssl) (for random Auth Secret), and [MongoDB](https://www.mongodb.com/). 
+Could you replace the placeholder values with your actual credentials? You can obtain these credentials by signing up on the corresponding websites from [Google Cloud Console](https://console.cloud.google.com/welcome?rapt=AEjHL4MBaLLneW6OfAHf_zgms1eWZFw1wdy0_KIC4uh1nEqh2m4ojOvrXNlzJ4h7CZTkpiWgcsoHbUvS-FMdCP7WIkaVlPAeU7cnVR6Y0wJHeLMOtU6KAzA&project=promptopia-385410), [Cryptpool](https://www.cryptool.org/en/cto/openssl) (for random Auth Secret), and [MongoDB](https://www.mongodb.com/). 
 
 **Running the Project**
 
