@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/user-attachments/assets/88261d80-af68-43fd-9dae-fdd7cc892ff5)<div align="center">
   <br />
 
   <div>
@@ -10,7 +10,7 @@
   <h3 align="center">Next.js 14 AI Prompt Sharing Application</h3>
 </div>
 
-## <a name="stack">⚙️ Stack's</a>
+## <a name="stack">⚙️ Skils</a>
 
 - Next.js
 - MongoDB
