@@ -375,7 +375,7 @@ module.exports = {
 </details>
 
 <details>
-<summary><code>user.js</code></summary>
+<summary><code>Regex </code></summary>
 
 ```javascript
 username: {
@@ -387,6 +387,6 @@ username: {
 
 </details>
 
-## <a name="links">🔗 Links</a>
+## <a name="link">🔗 Assets Link</a>
 
 Assets used in the project can be found [here](https://drive.google.com/file/d/15bGW9HBImu1p3HAYalnaj2Ig_Sn-1c-f/view)
